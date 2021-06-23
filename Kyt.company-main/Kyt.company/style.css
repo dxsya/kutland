@@ -1,0 +1,65 @@
+body {
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -10;
+    
+}
+.logo-img {
+    width: 16%;
+}
+.logo-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%
+}
+.flat-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 5% 5%;
+    
+    
+}
+.flat{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.qq{
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.qwe{
+    color: white;
+}
+.qq2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.button {
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    align-items: center;
+    padding: 0% 5%;
+}
+.line {
+    width: 170px;
+}
